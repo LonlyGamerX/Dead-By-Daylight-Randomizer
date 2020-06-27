@@ -1,11 +1,13 @@
 {
+  "type": "module",
+  "@std/esm": "cjs",
   "name": "dead-by-daylight-randomizer",
   "version": "1.0.0",
-  "description": "",
+  "description": "generates a random perk set and character for you to play",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run index.mjs"
+    "start": "node --experimental-modules index.mjs"
   },
   "author": "Scott",
   "license": "MIT",
