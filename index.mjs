@@ -4,11 +4,25 @@ import {survivorPerksN1, killerPerksN1} from './Arrays/perks.js'
 
 const TypesCharacters = typeCharacters1[Math.floor(Math.random() * typeCharacters1.length)]
 
+//selecting killers or survivors characters
 if (TypesCharacters === "Killer") {
   var CharacterName = killersName0[Math.floor(Math.random() * killersName0.length)];
 } else if (TypesCharacters === "Survivor") {
   var CharacterName = survivorsName0[Math.floor(Math.random() * survivorsName0.length)];
 }
+
+if (TypesCharacters === "Killer") {
+  var perks1 = killerPerksN1[Math.floor(Math.random() * killerPerksN1.length)]
+  var perks2 = killerPerksN1[Math.floor(Math.random() * killerPerksN1.length)]
+  var perks3 = killerPerksN1[Math.floor(Math.random() * killerPerksN1.length)]
+  var perks4 = killerPerksN1[Math.floor(Math.random() * killerPerksN1.length)]
+} else if (TypesCharacters === "Survivor") {
+  var perks1 = survivorPerksN1[Math.floor(Math.random() * survivorPerksN1.length)]
+  var perks2 = survivorPerksN1[Math.floor(Math.random() * survivorPerksN1.length)]
+  var perks3 = survivorPerksN1[Math.floor(Math.random() * survivorPerksN1.length)]
+  var perks4 = survivorPerksN1[Math.floor(Math.random() * survivorPerksN1.length)]
+}
+
 
 //Colors for console
 // Reset = "\x1b[0m"
@@ -41,5 +55,9 @@ if (TypesCharacters === "Killer") {
 console.log('\x1b[36mOriginal creator - Scott - twitch.tv/LonlyGamerX');
 console.log('');
 console.log(`\x1b[32mCharacter type: \x1b[31m\x1b[4m${TypesCharacters}\x1b[0m`)
-console.log(`\x1b[32mChracter name: \x1b[31m\x1b[4m${CharacterName}`)
+console.log(`\x1b[32mChracter name: \x1b[31m\x1b[4m${CharacterName}\x1b[0m`)
 console.log('');
+console.log(`\x1b[32mPerk 1: \x1b[31m\x1b[4m${perks1}\x1b[0m`)
+console.log(`\x1b[32mPerk 2: \x1b[31m\x1b[4m${perks2}\x1b[0m`)
+console.log(`\x1b[32mPerk 3: \x1b[31m\x1b[4m${perks3}\x1b[0m`)
+console.log(`\x1b[32mPerk 4: \x1b[31m\x1b[4m${perks4}\x1b[0m`)
