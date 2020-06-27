@@ -7,7 +7,8 @@ const TypesCharacters = typeCharacters1[Math.floor(Math.random() * typeCharacter
 //Randomizing Character depending on if its a type survivor or type killer
 if (TypesCharacters === "Killer") {
   var CharacterName = killersName0[Math.floor(Math.random() * killersName0.length)];
-} else if (TypesCharacters === "Survivor") {
+} 
+else if (TypesCharacters === "Survivor") {
   var CharacterName = survivorsName0[Math.floor(Math.random() * survivorsName0.length)];
 }
 
@@ -17,7 +18,8 @@ if (TypesCharacters === "Killer") {
   var perks2 = killerPerksN1[Math.floor(Math.random() * killerPerksN1.length)]
   var perks3 = killerPerksN1[Math.floor(Math.random() * killerPerksN1.length)]
   var perks4 = killerPerksN1[Math.floor(Math.random() * killerPerksN1.length)]
-} else if (TypesCharacters === "Survivor") {
+} 
+else if (TypesCharacters === "Survivor") {
   var perks1 = survivorPerksN1[Math.floor(Math.random() * survivorPerksN1.length)]
   var perks2 = survivorPerksN1[Math.floor(Math.random() * survivorPerksN1.length)]
   var perks3 = survivorPerksN1[Math.floor(Math.random() * survivorPerksN1.length)]
