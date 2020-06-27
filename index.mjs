@@ -4,13 +4,14 @@ import {survivorPerksN1, killerPerksN1} from './Arrays/perks.js'
 
 const TypesCharacters = typeCharacters1[Math.floor(Math.random() * typeCharacters1.length)]
 
-//selecting killers or survivors characters
+//Randomizing Character depending on if its a type survivor or type killer
 if (TypesCharacters === "Killer") {
   var CharacterName = killersName0[Math.floor(Math.random() * killersName0.length)];
 } else if (TypesCharacters === "Survivor") {
   var CharacterName = survivorsName0[Math.floor(Math.random() * survivorsName0.length)];
 }
 
+//Randomizing Character perks depending on if its killer or survivor
 if (TypesCharacters === "Killer") {
   var perks1 = killerPerksN1[Math.floor(Math.random() * killerPerksN1.length)]
   var perks2 = killerPerksN1[Math.floor(Math.random() * killerPerksN1.length)]
@@ -52,6 +53,7 @@ if (TypesCharacters === "Killer") {
 // BgWhite = "\x1b[47m"
 
 
+//showing the results in console
 console.log('\x1b[36mOriginal creator - Scott - twitch.tv/LonlyGamerX');
 console.log('');
 console.log(`\x1b[32mCharacter type: \x1b[31m\x1b[4m${TypesCharacters}\x1b[0m`)
