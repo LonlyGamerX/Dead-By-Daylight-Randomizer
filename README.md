@@ -29,4 +29,4 @@ A)Well you can either search the internet for a fix or use the Repl.it version.
 Q)Is there anywhere else i can run this where you know it works?
 A)Yes on repl.it. Just follow the link below. Just press the green arrow to randomize.
 
-Link Repl.it: https://DeadByDaylightRandomizer.scottmaxyoda1.repl.run
+Link Repl.it: https://Dead-By-Daylight-Randomizer.scottmaxyoda1.repl.run
