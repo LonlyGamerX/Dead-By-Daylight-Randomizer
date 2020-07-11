@@ -1,4 +1,4 @@
 @echo off
-echo Starting Randomizer
-node main.mjs
+@echo Starting Dead by daylight Randomizer
+python main.py
 pause

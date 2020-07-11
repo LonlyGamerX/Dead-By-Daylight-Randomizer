@@ -1,0 +1,38 @@
+Trapper = ('Trapper sack','Trapper Gloves', 'Strong Coil spring', 'Padded Jaws', 'Trapper Bag','Trap setters','Serrated Jaws', 'Logwood Dye', '4 Coil Spring kit', 'Wax Brick','Tar Bottle','Setting Tools','Secondary Coil', 'Rusted Jaws', 'Stitched bag', 'Oily Coil', 'Honing Stone', 'Fasterning Tools','Iridescent Stone','Bloody Coil')
+
+Wraith = ('The Serpent - Soot','The Hound - Soot', 'The Ghost - Soot','The Beast - Soot','Bone Clapper', 'Blink - Mud','Windstorm - Mud','Swift Hunt - Mud','Blind Warrior - Mud','Windstorm - White','Swift Hunt - White','Shadow Dance - White','Blink - White','Blind Warrior - White','Windstorm - Blood','	Swift Hunt - Blood','Shadow Dance - Blood','All Seeing - Blood','Coxcombed Clapper','All Seeing - Spirit')
+
+Hillbilly = ('Steel Toe Boots','Junkyard Air Filter','Heavy Clutch','Dad\'s Boots','Speed Limiter','Punctured Muffler','Off-brand Motor Oil','Death Engravings','Big Buckle','Mother\'s Helpers','Low Kickback Chains','Leafy Mash','Doom Engravings','Black Grease','Tuned Carburettor','Thompson\'s Moonshine','Pighouse Gloves','Apex Muffler','LoPro Chains','Iridescent Brick')
+
+Nurse = ('Wooden Horse','White Nit Comb','Plaid Flannel','Metal Spoon','Pocket Watch','Dull Bracelet','Dark Cincture','Catatonic Boy\'s Treasure','Bad Man Keepsake','Spasmodic Breath','Heavy Panting','Fragile Wheeze','Ataxic Respiration','Anxious Gasp','Kavanagh\'s Last Breath','Jenner\'s Last Breath','Campbell\'s Last Breath','Bad Man\'s Last Breath','Torn Bookmark','Matchbox')
+
+Shape = ('Tacky Earrings','Boyfriend\'s Memo','Blond Hair','Reflective Fragment','Memorial Flower','Jewellery','Hair Brush','Glass Fragment','Dead Rabbit','Mirror Shard','Judith\'s Journal','Jewellery Box','J. Myers Memorial','Hair Bow','Vanity Mirror','Tombstone Piece','Scratched Mirror','Lock of Hair','Judith\'s Tombstone','Fragrant Tuft of Hair')
+
+Hag = ('Rope Necklet','Powdered Eggshell','Dead Fly Mud','Bog Water','Pussy Willow Catkins','Half Eggshell','Dragonfly Wings','Cypress Necklet','Bloodied Water','Willow Wreath','Swamp Orchid Necklet','Dried Cicada','Cracked Turtle Egg','Bloodied Mud','Scarred Hand','Rusty Shackles','Grandma\'s Heart','Disfigured Ear','Waterlogged Shoe','Mint Rag')
+
+Doctor = ('Mouldy Electrode','Maple Knight','Order - Class I','Calm - Class I','	Polished Electrode','Restraint - Class II','Order - Class II','Discipline - Class II','Calm - Class II','Scrapped Tape','Interview Tape','High Stimulus Electrode','Restraint - Class III','Discipline - Class III','Restraint - Carter\'s Notes','Order - Carter\'s Notes','Discipline - Carter\'s Notes','Calm - Carter\'s Notes','Iridescent Queen','Iridescent King')
+
+Huntress = ('Coarse Stone','Berus Toxin','Bandaged Haft','Amanita Toxin','Yew Seed Brew','Shiny Pin','Oak Haft','Manna Grass Braid','Leather Loop','Fine Stone','Deerskin Gloves','Yew Seed Concoction','Venomous Concoction','Rusty Head','Pungent Phial','Flower Babushka','Infantry Belt','Glowing Concoction','Begrimed Head','Iridescent Head')
+
+Cannibal = ('Vegetable Oil','Spark Plug','Long Guide Bar','Chainsaw File','Speed Limiter','Primer Bulb','Knife Scratches','Homemade Muffler','Chilli','The Grease','The Beast\'s Marks','Shop Lubricant','Grisly Chains','Begrimed Chains','Rusted Chains','Light Chassis','Depth Gauge Rake','Award-winning Chilli','	Carburettor Tuning Guide','Iridescent Flesh')
+
+Nightmare = ('Wool Shirt','Sheep Block','Kid\'s Drawing','Garden Rake','Prototype Claws','Outdoor Rope','Nancy\'s Sketch','Green Dress','Cat Block','Unicorn Block','Paint Thinner','Nancy\'s Masterpiece','Jump Rope','Blue Dress','Pill Bottle','Swing Chains','Class Photo','Z Block','Red Paint Brush','Black Box')
+
+Pig = ('Workshop Grease','Shattered Syringe','John\'s Medical File','Combat Straps','Video Tape','Utility Blades','Razor Wires','Last Will','Face Mask','Slow-Release Toxin','Rusty Attachments','Jigsaw\'s Annotated Plan','Interlocking Razor','Bag of Gears','Tampered Timer','Jigsaw\'s Sketch','Crate of Gears','Amanda\'s Secret','	Rules Set No.2','Amanda\'s Letter')
+
+Clown = ('Smelly Inner Soles','Robin Feather','Fingerless Parade Gloves','Ether 5 Vol%','Thick Cork Stopper','Sticky Soda Bottle','Starling Feather','Solvent Jug','Kerosene Can','VHS Porn','Sulphuric Acid Vial','Flask of Bleach','Ether 10 Vol%','Bottle Of Chloroform','Garish Make-up Kit','Ether 15 Vol%','Cigar Box','Cheap Gin Bottle','Tattoo\'s Middle Finger','Redhead\'s Pinky Finger')
+
+Spirit = ('Zōri','Shiawase Amulet','Origami Crane','Gifted Bamboo Comb','White Hair Ribbon','Rin\'s Broken Watch','Muddy Sports Day Cap','Kaiun Talisman','Juniper Bonsai','Rusty Flute','Katsumori Talisman','Katana Tsuba','Dirty Uwabaki','Bloody Hair Brooch','Yakuyoke Amulet','Wakizashi Saya','Prayer Beads Bracelet','Dried Cherry Blossom','Mother-Daughter Ring','Father\'s Glasses')
+
+Legion = ('Smiley Face Pin','Scratched Ruler','Mischief List','Friendship Bracelet','	Never-Sleep Pills','Mural Sketch','Julie\'s Mix Tape','Etched Ruler','Defaced Smiley Pin','The Legion Pin','Susie\'s Mix Tape','Stolen Sketch Book','Nasty Blade','Joey\'s Mix Tape','Stab Wounds Study','Frank\'s Mix Tape','Filthy Blade','Cold Dirt','Iridescent Button','Fuming Mix Tape')
+
+Plague = ('Prayer Tablet Fragment','Olibanum Incense','Limestone Seal','Healing Salve','Prophylactic Amulet','Potent Tincture','Haematite Seal','Emetic Potion','Blessed Apple','Rubbing Oil','Infected Emetic','Incensed Ointment','Exorcism Amulet','Ashen Apple','Worship Tablet','Vile Emetic','Severed Toe','Devotee\'s Amulet','Iridescent Seal','Black Incense')
+
+Ghost_Face = ('Philly','Walleyes Matchbook','Headlines Cut-outs','Cheap Cologne','Telephoto Lens','Reusable Cinch Straps','Olsen\'s Journal','Olsen\'s Address Book','Marked Map','Olsen\'s Wallet','Leather Knife Sheath','Lasting Perfume','Knife Belt Clip','Chewed Pen','Victim\'s Detailed Routine','Night Vision Monocular','Drop-Leg Knife Sheath','Driver\'s License','Ghost Face Caught on Tape','Outdoor Security Camera')
+
+Demogorgon = ('Rotten Pumpkin','Black Heart','Rat Liver','Rat Tail','Sticky Lining', 'Viscous Webbing','Rotten Green Tripe','Mew\'s Guts','Barb\'s Glasses','Eleven\'s Soda','Thorny Vines','Brass Case Lighter','Violet Waxcap','Deer Lung','Lifeguard Whistle','Vermilion Webcap','Upside Down Resin','Unknown Egg','Leprose Lichen','Red Moss')
+
+Oni = ('Yakuyoke Talisman','Rotting Rope','Cracked Sakazuki','Blackened Toenail','Polished Maedate','Ink Lion','Chipped Saihai','Child\'s Wooden Sword','Bloody Sash','Yamaoka Sashimono','Wooden Oni Mask','Shattered Wakizashi','Shattered Wakizashi','Kanai-Anzen Talisman','Tear Soaked Tenugui','Splintered Hull','Lion Fang','Akito\'s Crutch','Renjiro\'s Bloody Glove','Iridescent Family Crest')
+Deathslinger = ('Spit Polish Rag','Snake Oil','Rickety Chain','Modified Ammo Belt','Rusted Spike','Poison Oak Leaves','Marshal\'s Badge','Jaw Smasher','Chewing Tobacco','Warden\'s Keys','Wanted Poster','Tin Oil Can','Honey Locust Thorn','Bayshore\'s Gold Tooth','Prison Chain','Gold Creek Whiskey','Bayshore\'s Cigar','Barbed Wire','Iridescent Coin','Hellshire Iron')
+
+Executioner = ('Lead Ring','Dead Butterfly','Copper Ring','Black Strap','Wax Doll','	Spearhead','Leopard-Print Fabric','Forgotten Videotape','Cinderella Music Box','Valtiel Sect Photograph','Tablet of the Oppressor','Misty Day, Remains of Judgement','Mannequin Foot','Burning Man Painting','Scarlet Egg','Rust-Coloured Egg','Lost Memories Book','Crimson Ceremony Book','Obsidian Goblet','Iridescent Seal of Metatron')

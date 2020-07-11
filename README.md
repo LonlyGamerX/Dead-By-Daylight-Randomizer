@@ -1,33 +1,32 @@
-# Dead by daylight Randomizer
+Dead by daylight Randomizer
 How to use it.
 
 Repl.it:
-Run the run command and it should work.
+Run the run command and it should work. (link at the bottom)
 
-Downloaded:
-Just run the start.bat file and it should give you a rune page randomizer. If it doesnt and gives you some sort of error, make sure you have downloaded at node.js version 12.18.1 or higher (https://nodejs.org/en/)
+Download:
+Just run the start.bat file and it should begin to randomize. If it doesnt and gives you some sort of error, make sure you have downloaded python 3.8.2 installed.
 
-Note this was made during season 10. Rune pages may change in the future and if it does then this may be irrelevant to you.
-There is also a small chance your second rune slot 1 and 2 may be picked from the same row and if it happens just use the first one and then you can either choose yourself or rerun it until you get another one for slot 2. Also this includes all champions made in season 10, August 1st 2020 or before. Any champion made after that date may not be included! If you want to make sure its all include just go to the repl.it to check that was it mostly updated to the lastest.
+Note this was made when the newest killer was the executioner so newer killers may be missing. I will try to update it as fast as possible. Current patch at the time of making this is 4.0.2.
 
 FAQ
 
-Q)What does it do?  
-A)It basically picks a random character and a perk set for you
+Q)What does it do?
+A)It basically picks a random character and a perk set for you. As well depending on where you pick survivor or killer it will also generate random add ons and items to use.
 
-Q)Will i get banned on dead by daylight if i use this?  
+Q)Will i get banned on dead by daylight if i use this?
 A)No, this doesnt modify anything on dead by daylight nor does it require you to have dead by daylight. All the names used are from dead by daylight.
 
-Q)Can I modify it?  
-A)Yes its under MIT, just be sure to say where you got it from and leave the console.log('\x1b[36mOriginal creator - Scott - twitch.tv/lonlygamerx') in it.
+Q)Can I modify it?
+A)Yes its under MIT, just be sure to say where you got it from and leave the ("Original creator - LonlyGamerX - twitch.tv/lonlygamerx") in it.
 
 Q)When i run it, it gives me errors. What do i do?
-A)First make sure you have all files, then open a console and make sure its open in the directory of the files and do npm install. Also make sure you have node.js install.
+A)First make sure you have all files and make sure you have the right python version install (3.8.2).
 
 Q)Im still having errors and ive followed all the things you have said. What do i do?
-A)Well you can either search the internet for a fix.
+A)Well you can either search the internet for a fix or use the Repl.it version.
 
-Q)Is there anywhere else i can run this where you know it works?  
-A)Yes i it a repl.it. Just follow the link below. Just press the green arrow to get generate.
+Q)Is there anywhere else i can run this where you know it works?
+A)Yes on repl.it. Just follow the link below. Just press the green arrow to randomize.
 
-Link Repl.it:
+Link Repl.it: https://DeadByDaylightRandomizer.scottmaxyoda1.repl.run
