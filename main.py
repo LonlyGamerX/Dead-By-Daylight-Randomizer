@@ -4,8 +4,10 @@ import random
 #Importanting arrays aka lists
 from perks import survivorPerks
 from perks import killerPerks
+
 from characters import survivorsName
 from characters import killersName
+
 from KillerAddon import Trapper
 from KillerAddon import Wraith
 from KillerAddon import Hillbilly
@@ -27,9 +29,17 @@ from KillerAddon import Oni
 from KillerAddon import Deathslinger
 from KillerAddon import Executioner
 
+from Allitems import items
+from ItemAddons import Toolbox
+from ItemAddons import Map
+from ItemAddons import Flashlight
+from ItemAddons import Key
+from ItemAddons import Medkit
+
 #Saying who made it
 print("Original creator - LonlyGamerX - twitch.tv/LonlyGamerX")
 print("")
+
 #Asking if the person wants survivor or killer randomizer
 Question1 = None
 while Question1 not in ("survivor", "killer"):
@@ -82,7 +92,72 @@ elif CharacterName == "Nightmare":
     Addon1 = random.choice(Nightmare)
     Addon2 = random.choice(Nightmare)
 
-    
+#Randomizing addons and item
+PickedItem = random.choice(items)
+
+#Flashlight addons
+if PickedItem == 'Flashlight':
+  ItemAddon1 = random.choice(Flashlight)
+  ItemAddon2 = random.choice(Flashlight)
+elif PickedItem == 'Sport Flashlight':
+  ItemAddon1 = random.choice(Flashlight)
+  ItemAddon2 = random.choice(Flashlight)
+elif PickedItem == 'Utility Flashlight':
+  ItemAddon1 = random.choice(Flashlight)
+  ItemAddon2 = random.choice(Flashlight)
+
+#Key addons
+if PickedItem == 'Broken Key':
+  ItemAddon1 = random.choice(Key)
+  ItemAddon2 = random.choice(Key)
+elif PickedItem == 'Dull Key':
+  ItemAddon1 = random.choice(Key)
+  ItemAddon2 = random.choice(Key)
+elif PickedItem == 'Skeleton Key':
+  ItemAddon1 = random.choice(Key)
+  ItemAddon2 = random.choice(Key)
+
+#Map addons
+if PickedItem == 'Map':
+  ItemAddon1 = random.choice(Map)
+  ItemAddon2 = random.choice(Map)
+elif PickedItem == 'Rainbow Map':
+  ItemAddon1 = random.choice(Map)
+  ItemAddon2 = random.choice(Map)
+
+#Medkit addons
+if PickedItem == 'Camping Aid Kit':
+  ItemAddon1 = random.choice(Medkit)
+  ItemAddon2 = random.choice(Medkit)
+elif PickedItem == 'First Aid Kit':
+  ItemAddon1 = random.choice(Medkit)
+  ItemAddon2 = random.choice(Medkit)
+elif PickedItem == 'Emergency Med-Kit':
+  ItemAddon1 = random.choice(Medkit)
+  ItemAddon2 = random.choice(Medkit)
+elif PickedItem == 'Ranger Med-Kit':
+  ItemAddon1 = random.choice(Medkit)
+  ItemAddon2 = random.choice(Medkit)
+
+#ToolBox addons
+if PickedItem == 'Worn-Out Tools':
+  ItemAddon1 = random.choice(Toolbox)
+  ItemAddon2 = random.choice(Toolbox)
+elif PickedItem == 'Toolbox':
+  ItemAddon1 = random.choice(Toolbox)
+  ItemAddon2 = random.choice(Toolbox)
+elif PickedItem == 'Mechanic\'s Toolbox':
+  ItemAddon1 = random.choice(Toolbox)
+  ItemAddon2 = random.choice(Toolbox)
+elif PickedItem == 'Commodious Toolbox':
+  ItemAddon1 = random.choice(Toolbox)
+  ItemAddon2 = random.choice(Toolbox)
+elif PickedItem == 'Engineer\'s Toolbox':
+  ItemAddon1 = random.choice(Toolbox)
+  ItemAddon2 = random.choice(Toolbox)
+elif PickedItem == 'Alex\'s Toolbox':
+  ItemAddon1 = random.choice(Toolbox)
+  ItemAddon2 = random.choice(Toolbox)
 
 #Randomizing Killer addon if you picked killerPerks part 2
 if CharacterName == "Pig":
@@ -116,8 +191,6 @@ elif CharacterName == "Executioner":
     Addon1 = random.choice(Executioner)
     Addon2 = random.choice(Executioner)
 
-    
-
 #Randomizing perks 1 to 4 for survivor if picked survivor
 if Question1.lower() == 'survivor':
     Perk1 = random.choice(survivorPerks)
@@ -140,6 +213,11 @@ print("")
 if Question1.lower() == 'killer':
   print("Addon 1: " + Addon1)
   print("Addon 2: " + Addon2)
+  print("")
+elif Question1.lower() == 'survivor':
+  print("Item: " + PickedItem)
+  print("Addon 1: " + ItemAddon1)
+  print("Addon 2: " + ItemAddon2)
   print("")
 print("Perk 1: " + Perk1)
 print("Perk 2: " + Perk2)

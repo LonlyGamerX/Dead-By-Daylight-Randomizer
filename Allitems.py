@@ -1,0 +1,1 @@
+items = ('Flashlight','Sport Flashlight','Utility Flashlight','Broken Key','Dull Key','Skeleton Key','Map','Rainbow Map','Camping Aid Kit','First Aid Kit','Emergency Med-Kit','Ranger Med-Kit','Worn-Out Tools','Toolbox','Mechanic\'s Toolbox','Commodious Toolbox','Engineer\'s Toolbox','Alex\'s Toolbox')
