@@ -12,7 +12,7 @@ Note this was made when the newest killer was the executioner so newer killers m
 FAQ
 
 Q)What does it do?
-A)It basically picks a random character and a perk set for you. As well depending on where you pick survivor or killer it will also generate random add ons and items to use.
+A)It basically picks a random character and a perk set for you. As well depending on if you pick survivor or killer it will also generate random add ons and items to use.
 
 Q)Will i get banned on dead by daylight if i use this?
 A)No, this doesnt modify anything on dead by daylight nor does it require you to have dead by daylight. All the names used are from dead by daylight.
